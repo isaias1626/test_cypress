@@ -7,6 +7,6 @@ describe('Testes para exclusão de contatos', () => {
 
     it('Deve excluir contatos', () => {
         cy.get('.contato').last().find('.delete').click()
-        cy.screenshot('removendo-contato')
+        cy.screenshot('removendo-contatos')
     })
 })
